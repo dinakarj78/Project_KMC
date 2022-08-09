@@ -125,8 +125,8 @@ public class SPUserDetailsAmountToDB extends AppCompatActivity {
         individualBankAccNo.setText("Bank Account Number: "+getIntent().getStringExtra("uBankAccNumber").toString());
         getIndividualBankIFSC.setText("Bank IFSC: "+getIntent().getStringExtra("uBankIFSC").toString());
         getIndividualRequestedAmount.setText("Requested Amount: "+getIntent().getStringExtra("uRequestedAmount").toString());
-        getAmountApproved.setText("Amount Approved: "+getIntent().getStringExtra("uApprovalAmount").toString());
-        getDBAccountAmount.setText("DB Account Amount: "+getIntent().getStringExtra("uDbAccount").toString());
+        getAmountApproved.setText("Credited To Vendor: "+getIntent().getStringExtra("uApprovalAmount").toString());
+        getDBAccountAmount.setText("DB Account Balance: "+getIntent().getStringExtra("uDbAccount").toString());
         getDbBankName.setText("DB Bank Name: "+getIntent().getStringExtra("uDbBankName").toString());
         getDbAccNumber.setText("DB Account Number: "+getIntent().getStringExtra("uDbAccountNo").toString());
         getDbIFSC.setText("DB Account IFSC: "+getIntent().getStringExtra("uDbIFSC").toString());

@@ -135,7 +135,7 @@ public class PSGroundingUserDetails extends AppCompatActivity {
         //        individualVendorName.getEditText().setText(getIntent().getStringExtra("uVendorName").toString());
 //        individualVendorBankAccountNumber.getEditText().setText(getIntent().getStringExtra("uVendorBankAccount").toString());
 //        individualVendorBankIFSC.getEditText().setText(getIntent().getStringExtra("uVendorIFSC").toString());
-        village=getIntent().getStringExtra("uVillage").toString();
+        village=getIntent() .getStringExtra("uVillage").toString();
         mandal=getIntent().getStringExtra("uMandal").toString();
         district=getIntent().getStringExtra("uDistrict").toString();
         collectorApproved=getIntent().getStringExtra("uCollectorApproved").toString();

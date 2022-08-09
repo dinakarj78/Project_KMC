@@ -276,7 +276,7 @@ public class CollectorAmountToDB2 extends AppCompatActivity implements com.examp
             //add paragraph to document
             doc.add(p8);
 
-            Paragraph p9 = new Paragraph("Sub:-\tDSCSCDS Ltd., Khammam District – Dalit Bandhu Scheme – "+village+"  –-  Transfer for an amounts of Rs."+ne.get(0).getTotalAmount()+"/- to beneficiary Account of "+ne.get(0).getNoOfBen()+" beneficiaries pertains to their preferred units – Reg.");
+            Paragraph p9 = new Paragraph("Sub:-\tDSCSCDS Ltd., Khammam District – Dalit Bandhu Scheme – "+district+"  –-  Transfer for an amounts of Rs."+ne.get(0).getTotalAmount()+"/- to beneficiary Account of "+ne.get(0).getNoOfBen()+" beneficiaries pertains to their preferred units – Reg.");
             p9.setAlignment(Paragraph.ALIGN_CENTER);
             p9.setFont(paraFont);
             //add paragraph to document
@@ -317,7 +317,7 @@ public class CollectorAmountToDB2 extends AppCompatActivity implements com.examp
             //add paragraph to document
             doc.add(p15);
             Paragraph p16 = new Paragraph(
-                    "Incompliance to the references 1st to 5th cited, under Dalit Bandhu Scheme, beneficiaries were selected from "+village+" and sanctioned Rs. 10.00 Lakh per each beneficiary for the said purpose vide the proceedings under reference 1st cited.Further it is submitted that an amount of "+ne.get(0).getTotalAmount()+" of "+ne.get(0).getNoOfBen()+" beneficiaries is hereby released to their Dalit Bandhu beneficiaries account pertains to their preferred units under Dalit Bandhu Scheme.");
+                    "Incompliance to the references 1st to 5th cited, under Dalit Bandhu Scheme, beneficiaries were selected from "+district+" and sanctioned Rs. 10.00 Lakh per each beneficiary for the said purpose vide the proceedings under reference 1st cited.Further it is submitted that an amount of "+ne.get(0).getTotalAmount()+" of "+ne.get(0).getNoOfBen()+" beneficiaries is hereby released to their Dalit Bandhu beneficiaries account pertains to their preferred units under Dalit Bandhu Scheme.");
             p16.setAlignment(Paragraph.ALIGN_LEFT);
             p16.setFont(paraFont);
             //add paragraph to document
@@ -360,7 +360,7 @@ public class CollectorAmountToDB2 extends AppCompatActivity implements com.examp
 
             doc.setPageSize(PageSize.A4.rotate());
             doc.newPage();
-            Paragraph p22 = new Paragraph("Statement showing the details of adjustment and release of amounts to their units in "+village+" in respect of Dalit Bandhu Scheme.");
+            Paragraph p22 = new Paragraph("Statement showing the details of adjustment and release of amounts to their units in "+district+" in respect of Dalit Bandhu Scheme.");
             p22.setAlignment(Paragraph.ALIGN_LEFT);
             p22.setFont(paraFont);
 
@@ -445,7 +445,10 @@ public class CollectorAmountToDB2 extends AppCompatActivity implements com.examp
         Intent i = new Intent(this, CollectorUnitSearch3.class);
         i.putExtra("district",district);
         startActivity(i);
+<<<<<<< HEAD
         finish();
+=======
+>>>>>>> 2f137f127f3002c0b05359f66412b5b8c0f2cc4f
     }
 
     @Override

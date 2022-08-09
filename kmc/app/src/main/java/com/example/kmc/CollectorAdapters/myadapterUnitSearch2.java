@@ -3,7 +3,10 @@ package com.example.kmc.CollectorAdapters;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
+<<<<<<< HEAD
 import android.content.Context;
+=======
+>>>>>>> 2f137f127f3002c0b05359f66412b5b8c0f2cc4f
 import android.content.Intent;
 import android.graphics.Color;
 import android.view.LayoutInflater;
@@ -11,7 +14,10 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
+<<<<<<< HEAD
 import android.widget.Toast;
+=======
+>>>>>>> 2f137f127f3002c0b05359f66412b5b8c0f2cc4f
 
 import androidx.annotation.NonNull;
 import androidx.cardview.widget.CardView;
@@ -19,7 +25,10 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.kmc.CLogin.CollectorUserDetails2;
 import com.example.kmc.Individual;
+<<<<<<< HEAD
 import com.example.kmc.List;
+=======
+>>>>>>> 2f137f127f3002c0b05359f66412b5b8c0f2cc4f
 import com.example.kmc.R;
 import com.example.kmc.SelectionElements;
 
@@ -31,6 +40,7 @@ public class myadapterUnitSearch2 extends RecyclerView.Adapter<myadapterUnitSear
     ArrayList<Individual> datalist;
     ArrayList<SelectionElements> dataAadhar=new ArrayList<>();
     String district;
+<<<<<<< HEAD
     private List list;
     String t;
 
@@ -38,6 +48,12 @@ public class myadapterUnitSearch2 extends RecyclerView.Adapter<myadapterUnitSear
         this.datalist = datalist;
         this.district=district;
         this.list=l;
+=======
+
+    public myadapterUnitSearch2(ArrayList<Individual> datalist, String district) {
+        this.datalist = datalist;
+        this.district=district;
+>>>>>>> 2f137f127f3002c0b05359f66412b5b8c0f2cc4f
     }
 
     @NonNull
@@ -91,6 +107,7 @@ public class myadapterUnitSearch2 extends RecyclerView.Adapter<myadapterUnitSear
                 ((Activity)holder.t1.getContext()).finish();
             }
         }) ;
+<<<<<<< HEAD
         holder.itemView.setOnLongClickListener(new View.OnLongClickListener() {
             @Override
             public boolean onLongClick(View view) {
@@ -111,13 +128,21 @@ public class myadapterUnitSearch2 extends RecyclerView.Adapter<myadapterUnitSear
             }
 
         });
+=======
+>>>>>>> 2f137f127f3002c0b05359f66412b5b8c0f2cc4f
 
 
         holder.t1.setText(datalist.get(position).getName());
         holder.t2.setText(datalist.get(position).getStatus());
         holder.t3.setText("Preferred Unit: "+datalist.get(position).getPreferredUnit());
+<<<<<<< HEAD
+        holder.t4.setText("DB Account Balance: "+datalist.get(position).getDbAccount());
+        holder.t5.setText("Credited To Vendor: "+datalist.get(position).getApprovalAmount());
+        holder.t6.setText("Credited To DB: "+datalist.get(position).getCreditedToDB());
+=======
         holder.t4.setText("DB Account Amount: "+datalist.get(position).getDbAccount());
         holder.t5.setText("Approved Amount: "+datalist.get(position).getApprovalAmount());
+>>>>>>> 2f137f127f3002c0b05359f66412b5b8c0f2cc4f
         String inprogress="In Progress";
         String approve="approved";
         String reject="rejected";
@@ -230,6 +255,10 @@ public class myadapterUnitSearch2 extends RecyclerView.Adapter<myadapterUnitSear
         TextView t3;
         TextView t4;
         TextView t5;
+<<<<<<< HEAD
+        TextView t6;
+=======
+>>>>>>> 2f137f127f3002c0b05359f66412b5b8c0f2cc4f
         ImageView check;
         CardView cardView;
 
@@ -240,6 +269,10 @@ public class myadapterUnitSearch2 extends RecyclerView.Adapter<myadapterUnitSear
             t3=itemView.findViewById(R.id.t3);
             t4=itemView.findViewById(R.id.t4);
             t5=itemView.findViewById(R.id.t5);
+<<<<<<< HEAD
+            t6=itemView.findViewById(R.id.t6);
+=======
+>>>>>>> 2f137f127f3002c0b05359f66412b5b8c0f2cc4f
             check=itemView.findViewById(R.id.check);
             cardView=itemView.findViewById(R.id.cardview);
 

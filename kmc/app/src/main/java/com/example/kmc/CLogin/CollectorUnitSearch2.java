@@ -1,17 +1,25 @@
 package com.example.kmc.CLogin;
 
+<<<<<<< HEAD
 import android.graphics.Color;
+=======
+>>>>>>> 2f137f127f3002c0b05359f66412b5b8c0f2cc4f
 import android.os.Bundle;
 import android.text.Editable;
 import android.text.TextWatcher;
 import android.util.Log;
 import android.view.View;
+<<<<<<< HEAD
 import android.widget.ImageButton;
 import android.widget.LinearLayout;
 import android.widget.ProgressBar;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
+=======
+import android.widget.ProgressBar;
+
+>>>>>>> 2f137f127f3002c0b05359f66412b5b8c0f2cc4f
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
@@ -20,6 +28,7 @@ import com.example.kmc.CollectorAdapters.myadapter5Search;
 import com.example.kmc.CollectorAdapters.myadapterUnitSearch2;
 import com.example.kmc.Individual;
 import com.example.kmc.R;
+<<<<<<< HEAD
 import com.example.kmc.SelectionElements;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.OnFailureListener;
@@ -27,33 +36,51 @@ import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.android.gms.tasks.Task;
 import com.google.android.material.textfield.TextInputEditText;
 import com.google.android.material.textfield.TextInputLayout;
+=======
+import com.google.android.gms.tasks.OnSuccessListener;
+import com.google.android.material.textfield.TextInputEditText;
+>>>>>>> 2f137f127f3002c0b05359f66412b5b8c0f2cc4f
 import com.google.firebase.firestore.DocumentSnapshot;
 import com.google.firebase.firestore.FirebaseFirestore;
 import com.google.firebase.firestore.QuerySnapshot;
 
 import java.util.ArrayList;
+<<<<<<< HEAD
 import java.util.HashMap;
 import java.util.List;
 import java.util.Locale;
 import java.util.Map;
 
 public class CollectorUnitSearch2 extends AppCompatActivity implements com.example.kmc.List {
+=======
+import java.util.List;
+import java.util.Locale;
+
+public class CollectorUnitSearch2 extends AppCompatActivity {
+>>>>>>> 2f137f127f3002c0b05359f66412b5b8c0f2cc4f
     ArrayList<Individual> datalist;
     FirebaseFirestore db;
     RecyclerView recyclerView;
     public TextInputEditText searchBox;
+<<<<<<< HEAD
     ArrayList<SelectionElements> selected;
+=======
+
+>>>>>>> 2f137f127f3002c0b05359f66412b5b8c0f2cc4f
     String district;
     ProgressBar progressBar;
     String searchText;
     String village;
     myadapterUnitSearch2 adapter;
+<<<<<<< HEAD
     ImageButton checkAll;
     ImageButton cancelAll;
     LinearLayout l1;
     TextInputLayout searchboxLayout;
     ImageButton searchButton;
     View v;
+=======
+>>>>>>> 2f137f127f3002c0b05359f66412b5b8c0f2cc4f
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -61,6 +88,7 @@ public class CollectorUnitSearch2 extends AppCompatActivity implements com.examp
         recyclerView = (RecyclerView) findViewById(R.id.recyclerView);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
         searchBox=findViewById(R.id.searchbox);
+<<<<<<< HEAD
         searchButton=findViewById(R.id.searchbutton);
         searchboxLayout=findViewById(R.id.searchboxLayout);
         datalist=new ArrayList<>();
@@ -68,13 +96,20 @@ public class CollectorUnitSearch2 extends AppCompatActivity implements com.examp
         cancelAll=findViewById(R.id.cancelAll);
         v=findViewById(R.id.view);
         l1=findViewById(R.id.layout1);
+=======
+        datalist=new ArrayList<>();
+>>>>>>> 2f137f127f3002c0b05359f66412b5b8c0f2cc4f
         searchText="";
         Bundle extras = getIntent().getExtras();
         if (extras != null) {
             district= extras.getString("district");
          //   village=extras.getString("village");
         }
+<<<<<<< HEAD
         adapter=new myadapterUnitSearch2(datalist,district,CollectorUnitSearch2.this,CollectorUnitSearch2.this);
+=======
+        adapter=new myadapterUnitSearch2(datalist,district);
+>>>>>>> 2f137f127f3002c0b05359f66412b5b8c0f2cc4f
         recyclerView.setAdapter(adapter);
         db=FirebaseFirestore.getInstance();
         progressBar = (ProgressBar) findViewById(R.id.progressBar);
@@ -120,6 +155,7 @@ public class CollectorUnitSearch2 extends AppCompatActivity implements com.examp
                     }
                 });
     }
+<<<<<<< HEAD
     public void cancelAll(View view) {
         for(SelectionElements s:selected) {
 
@@ -198,4 +234,6 @@ public class CollectorUnitSearch2 extends AppCompatActivity implements com.examp
             searchButton.setVisibility(View.VISIBLE);
         }
     }
+=======
+>>>>>>> 2f137f127f3002c0b05359f66412b5b8c0f2cc4f
 }

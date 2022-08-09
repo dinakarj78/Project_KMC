@@ -19,7 +19,15 @@
         <entry key="..\:/GITHUB_REPO/Project_KMC-main/kmc/app/src/main/res/layout/activity_user_details_amount_to_db.xml" value="0.25" />
         <entry key="..\:/Users/DINAKAR/AndroidStudioProjects/kmc/app/src/main/res/layout/activity_add_individual.xml" value="0.10714285714285714" />
         <entry key="..\:/Users/DINAKAR/AndroidStudioProjects/kmc/app/src/main/res/layout/activity_add_vendor.xml" value="0.17" />
+        <entry key="..\:/Users/DINAKAR/AndroidStudioProjects/kmc/app/src/main/res/layout/activity_collecto_grounding.xml" value="0.15104166666666666" />
+        <entry key="..\:/Users/DINAKAR/AndroidStudioProjects/kmc/app/src/main/res/layout/activity_collector_amount_dbto_ben.xml" value="0.15104166666666666" />
+        <entry key="..\:/Users/DINAKAR/AndroidStudioProjects/kmc/app/src/main/res/layout/activity_collector_list_ben.xml" value="0.1" />
+        <entry key="..\:/Users/DINAKAR/AndroidStudioProjects/kmc/app/src/main/res/layout/activity_collector_search.xml" value="0.15104166666666666" />
+        <entry key="..\:/Users/DINAKAR/AndroidStudioProjects/kmc/app/src/main/res/layout/activity_collectorzone.xml" value="0.1" />
         <entry key="..\:/Users/DINAKAR/AndroidStudioProjects/kmc/app/src/main/res/layout/activity_ps_action.xml" value="0.2203125" />
+        <entry key="..\:/Users/DINAKAR/AndroidStudioProjects/kmc/app/src/main/res/layout/singlerow.xml" value="0.1574074074074074" />
+        <entry key="..\:/Users/DINAKAR/AndroidStudioProjects/kmc/app/src/main/res/layout/singlerow2.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/DINAKAR/AndroidStudioProjects/kmc/app/src/main/res/layout/singlerow3.xml" value="0.22447916666666667" />
         <entry key="..\:/Users/NUNNA KIREETI/AndroidStudioProjects/kmc/app/src/main/res/layout/activity_collector_grounding_user_details.xml" value="0.17074275362318841" />
         <entry key="..\:/Users/NUNNA KIREETI/AndroidStudioProjects/kmc/app/src/main/res/layout/activity_collector_user_details.xml" value="0.17074275362318841" />
         <entry key="..\:/Users/NUNNA KIREETI/AndroidStudioProjects/kmc/app/src/main/res/layout/activity_collector_user_details_amount_dbto_ben.xml" value="0.17074275362318841" />
@@ -124,7 +132,6 @@
         <entry key="..\:/my-projects-repo/KMCCCCCCCCCCCCCC/kmc/app/src/main/res/layout/activity_collector_menu.xml" value="0.1" />
         <entry key="..\:/my-projects-repo/Project_KMC/kmc/app/src/main/res/drawable/badge.xml" value="0.122" />
         <entry key="..\:/my-projects-repo/Project_KMC/kmc/app/src/main/res/drawable/border.xml" value="0.136" />
-        <entry key="..\:/my-projects-repo/Project_KMC/kmc/app/src/main/res/drawable/buttonbackground.xml" value="0.1285" />
         <entry key="..\:/my-projects-repo/Project_KMC/kmc/app/src/main/res/drawable/card.xml" value="0.136" />
         <entry key="..\:/my-projects-repo/Project_KMC/kmc/app/src/main/res/drawable/ic_baseline_sticky_note_2_24.xml" value="0.108" />
         <entry key="..\:/my-projects-repo/Project_KMC/kmc/app/src/main/res/layout/activity_add_individual.xml" value="0.1" />
@@ -142,7 +149,7 @@
         <entry key="..\:/my-projects-repo/Project_KMC/kmc/app/src/main/res/layout/activity_collector_mandal_overview.xml" value="0.18" />
         <entry key="..\:/my-projects-repo/Project_KMC/kmc/app/src/main/res/layout/activity_collector_mandal_selection.xml" value="0.184375" />
         <entry key="..\:/my-projects-repo/Project_KMC/kmc/app/src/main/res/layout/activity_collector_menu.xml" value="0.1" />
-        <entry key="..\:/my-projects-repo/Project_KMC/kmc/app/src/main/res/layout/activity_collector_search.xml" value="0.2" />
+        <entry key="..\:/my-projects-repo/Project_KMC/kmc/app/src/main/res/layout/activity_collector_search.xml" value="0.22" />
         <entry key="..\:/my-projects-repo/Project_KMC/kmc/app/src/main/res/layout/activity_collector_user_details.xml" value="0.25" />
         <entry key="..\:/my-projects-repo/Project_KMC/kmc/app/src/main/res/layout/activity_collector_user_details_amount_to_db.xml" value="0.17527173913043478" />
         <entry key="..\:/my-projects-repo/Project_KMC/kmc/app/src/main/res/layout/activity_collector_village_overview.xml" value="0.18840579710144928" />

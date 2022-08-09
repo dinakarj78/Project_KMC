@@ -33,7 +33,10 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Locale;
+<<<<<<< HEAD
 import java.util.Map;
+=======
+>>>>>>> 2f137f127f3002c0b05359f66412b5b8c0f2cc4f
 
 public class CollectorSearch2 extends AppCompatActivity{
     ArrayList<Individual> datalist;

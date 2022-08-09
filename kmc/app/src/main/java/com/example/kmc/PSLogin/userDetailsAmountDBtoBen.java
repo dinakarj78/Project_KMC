@@ -218,7 +218,7 @@ public class userDetailsAmountDBtoBen extends AppCompatActivity {
         individualBankAccNo.setText("Bank Account Number: "+getIntent().getStringExtra("uBankAccNumber").toString());
         getIndividualBankIFSC.setText("Bank IFSC: "+getIntent().getStringExtra("uBankIFSC").toString());
         individualDBAccount.setText("DB Account: "+getIntent().getStringExtra("uDBAccount").toString());
-        getAmountApproved.setText("Amount Approved: "+getIntent().getStringExtra("uApprovalAmount").toString());
+        getAmountApproved.setText("Credited To Vendor: "+getIntent().getStringExtra("uApprovalAmount").toString());//approved amount
         getDbBankName.setText("DB Bank Name: "+getIntent().getStringExtra("uDbBankName").toString());
         getDbIFSC.setText("DB Account IFSC: "+getIntent().getStringExtra("uDbIFSC").toString());
         getDbAccNumber.setText("DB Account Number: "+getIntent().getStringExtra("uDbAccountNo").toString());

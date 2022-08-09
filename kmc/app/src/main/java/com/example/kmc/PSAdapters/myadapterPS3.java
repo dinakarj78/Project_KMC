@@ -40,8 +40,9 @@ public class myadapterPS3 extends RecyclerView.Adapter<myadapterPS3.myviewholder
         holder.t1.setText(datalist.get(position).getName());
         holder.t2.setText("Status: "+datalist.get(position).getStatus());
         holder.t3.setText("Preferred Unit: "+datalist.get(position).getPreferredUnit());
-        holder.t4.setText("DB Account Amount: "+datalist.get(position).getDbAccount());
-        holder.t5.setText("Approved Amount: "+datalist.get(position).getApprovalAmount());
+        holder.t4.setText("DB Account Balance: "+datalist.get(position).getDbAccount());
+        holder.t5.setText("Credited To Vendor: "+datalist.get(position).getApprovalAmount());
+        holder.t6.setText("Credited To DB: "+datalist.get(position).getCreditedToDB());
         String inprogress="In Progress";
         String approve="approved";
         String reject="rejected";
@@ -185,6 +186,7 @@ public class myadapterPS3 extends RecyclerView.Adapter<myadapterPS3.myviewholder
         TextView t3;
         TextView t4;
         TextView t5;
+        TextView t6;
 
         public myviewholder(@NonNull View itemView) {
             super(itemView);
@@ -193,7 +195,7 @@ public class myadapterPS3 extends RecyclerView.Adapter<myadapterPS3.myviewholder
             t3=itemView.findViewById(R.id.t3);
             t4=itemView.findViewById(R.id.t4);
             t5=itemView.findViewById(R.id.t5);
-
+            t6=itemView.findViewById(R.id.t6);
         }
     }
 }

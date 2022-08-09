@@ -90,8 +90,14 @@ public class myadapterUnitSearch5 extends RecyclerView.Adapter<myadapterUnitSear
         holder.t1.setText(datalist.get(position).getName());
         holder.t2.setText(datalist.get(position).getStatus());
         holder.t3.setText("Preferred Unit: "+datalist.get(position).getPreferredUnit());
+<<<<<<< HEAD
+        holder.t4.setText("DB Account Balance: "+datalist.get(position).getDbAccount());
+        holder.t5.setText("Credited To Vendor: "+datalist.get(position).getApprovalAmount());
+        holder.t6.setText("Credited To DB: "+datalist.get(position).getCreditedToDB());
+=======
         holder.t4.setText("DB Account Amount: "+datalist.get(position).getDbAccount());
         holder.t5.setText("Approved Amount: "+datalist.get(position).getApprovalAmount());
+>>>>>>> 2f137f127f3002c0b05359f66412b5b8c0f2cc4f
         String inprogress="In Progress";
         String approve="approved";
         String reject="rejected";
@@ -204,6 +210,10 @@ public class myadapterUnitSearch5 extends RecyclerView.Adapter<myadapterUnitSear
         TextView t3;
         TextView t4;
         TextView t5;
+<<<<<<< HEAD
+        TextView t6;
+=======
+>>>>>>> 2f137f127f3002c0b05359f66412b5b8c0f2cc4f
         ImageView check;
         CardView cardView;
 
@@ -214,6 +224,10 @@ public class myadapterUnitSearch5 extends RecyclerView.Adapter<myadapterUnitSear
             t3=itemView.findViewById(R.id.t3);
             t4=itemView.findViewById(R.id.t4);
             t5=itemView.findViewById(R.id.t5);
+<<<<<<< HEAD
+            t6=itemView.findViewById(R.id.t6);
+=======
+>>>>>>> 2f137f127f3002c0b05359f66412b5b8c0f2cc4f
             check=itemView.findViewById(R.id.check);
             cardView=itemView.findViewById(R.id.cardview);
 

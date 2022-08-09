@@ -147,7 +147,7 @@ public class SPUserDetailsAmountDBToBen extends AppCompatActivity {
         getVendorBankAccountNo.setText("Vendor Bank Account Number: "+getIntent().getStringExtra("uVendorAccountNo").toString());
         getIndividualDBAmount.setText("DB Account: "+getIntent().getStringExtra("uDbAccount").toString());
         getPSRequestedAmount.setText("PS Requested Amount: "+getIntent().getStringExtra("uPSRequestedAmount").toString());
-        getAmountApproved.setText("Amount Approved: "+getIntent().getStringExtra("uApprovalAmount").toString());
+        getAmountApproved.setText("Credited To Vendor: "+getIntent().getStringExtra("uApprovalAmount").toString());//approved amount
         getDbBankName.setText("DB Bank Name: "+getIntent().getStringExtra("uDbBankName").toString());
         getDbAccNumber.setText("DB Account Number: "+getIntent().getStringExtra("uDbAccountNo").toString());
         getDbIFSC.setText("DB Account IFSC: "+getIntent().getStringExtra("uDbIFSC").toString());

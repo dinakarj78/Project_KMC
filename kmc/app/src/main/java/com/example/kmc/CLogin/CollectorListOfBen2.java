@@ -178,7 +178,10 @@ public class CollectorListOfBen2 extends AppCompatActivity implements com.exampl
         i.putExtra("district",district);
         //   i.putExtra("village",village);
         startActivity(i);
+<<<<<<< HEAD
         finish();
+=======
+>>>>>>> 2f137f127f3002c0b05359f66412b5b8c0f2cc4f
     }
 }
 
